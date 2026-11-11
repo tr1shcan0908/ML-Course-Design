@@ -1,0 +1,11 @@
+{
+  "state": "completed",
+  "updated_at": "2026-11-06T21:28:47+08:00",
+  "pid": 58792,
+  "fold": 1,
+  "step": 3000,
+  "target_steps": 3000,
+  "best_submission_dice": 0.8397889610870676,
+  "best_step": 2500,
+  "elapsed_seconds": 204.3879639999941
+}

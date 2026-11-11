@@ -1,0 +1,12 @@
+{
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\13716\\.conda\\envs\\MLJupyter\\python.exe",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "packages": {
+    "torch": "2.10.0+cu130",
+    "torchvision": "0.25.0+cu130",
+    "numpy": "2.4.3",
+    "Pillow": "12.0.0",
+    "filelock": "3.20.0"
+  }
+}

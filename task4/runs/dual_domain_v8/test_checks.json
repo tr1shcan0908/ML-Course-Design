@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "total_tests": 31,
+  "commands": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "passed": true,
+      "tests": 30
+    },
+    {
+      "command": "python -m unittest tests.test_dual_domain_fusion -v",
+      "passed": true,
+      "tests": 1
+    }
+  ],
+  "checks": [
+    "Supplied encoder agreement on native and 512 geometry",
+    "Dual-head finite gradients",
+    "Ordered real targets and synchronized binary transforms",
+    "Frozen v3 hard-mask preservation under probability transport"
+  ],
+  "test_sha256": {
+    "tests\\test_dual_domain.py": "638cd4450009e3f77d5a11b72f5658f972a74dddd4fc0e101a2ee0ff44f81f1b",
+    "tests\\test_dual_domain_fusion.py": "52efbd5952c9bbe1dae5bd832d7975b630034d6f42480c219da031f01bce1699"
+  }
+}

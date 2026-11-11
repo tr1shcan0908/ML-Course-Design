@@ -1,0 +1,10 @@
+{
+  "candidate_weight": 0.35,
+  "threshold": 0.42,
+  "transport": "vessel_lab.dual_domain_fusion.transport",
+  "script": "24efd21df55af9e254cab4bd38c75f8cacc194b6717cde69f969432f1cf3f9cc",
+  "baseline_recipe_sha256": "3edff1fa9e790a4840ded05574d6381d1c7e120ef4d1e4bceaeb942461cc3f80",
+  "candidate_recipe_sha256": "2ec1770401cd7d6f55f3068f26d4c1dbbfb20a15788ea70b933ddb2ef34ad5e8",
+  "csv_sha256": "8d49aa138f5ccbbe1929601d4044b38dd3c3cb3e0ef61258d93382d31cf61cc9",
+  "calibration_result_sha256": "e47a83eb734f484c0a2562fe8def4febf6cafe151d0568681bfec731689fe538"
+}

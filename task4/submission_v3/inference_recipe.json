@@ -1,0 +1,125 @@
+{
+  "members": [
+    {
+      "name": "csa_v1",
+      "implementation": "v1",
+      "run_dir": "runs/csa_v1",
+      "tta": true,
+      "tta_mode": "flip4",
+      "spatial_mode": "tiled",
+      "checkpoints": [
+        {
+          "fold": 0,
+          "path": "runs/csa_v1/fold_0/best.pt",
+          "sha256": "331df19215574e57da692950893f6b9779c5c5e6e248de90f7dc8ba639806b3c"
+        },
+        {
+          "fold": 1,
+          "path": "runs/csa_v1/fold_1/best.pt",
+          "sha256": "5e29c4ce93139c093f778395d46ce87600ed5d89d49cd3444da940040e3bddab"
+        },
+        {
+          "fold": 2,
+          "path": "runs/csa_v1/fold_2/best.pt",
+          "sha256": "7ba5f353a5aa1abf0d655ee8654ae15345fc6ac4184e5ce152835dc60c938700"
+        },
+        {
+          "fold": 3,
+          "path": "runs/csa_v1/fold_3/best.pt",
+          "sha256": "28061508e7c54e3fb6a841da8378c7f1b767f6edda737d5d7ade5da08a2a1401"
+        },
+        {
+          "fold": 4,
+          "path": "runs/csa_v1/fold_4/best.pt",
+          "sha256": "1bd3b1d0fcff8075ed2be5dc460154b80c0fb0a3e092d02b0b0ff02c20ddcdde"
+        }
+      ],
+      "tile_patch": 288,
+      "tile_stride": 144,
+      "tile_batch_size": 4,
+      "weight": 0.5
+    },
+    {
+      "name": "res18_unet_v2",
+      "implementation": "lab",
+      "run_dir": "runs/res18_unet_v2",
+      "tta": true,
+      "tta_mode": "d4",
+      "spatial_mode": "full",
+      "checkpoints": [
+        {
+          "fold": 0,
+          "path": "runs/res18_unet_v2/fold_0/best.pt",
+          "sha256": "725e2345e5c33aa5e547e570bc6088d846413598bbc2c58f5931613934f606b3"
+        },
+        {
+          "fold": 1,
+          "path": "runs/res18_unet_v2/fold_1/best.pt",
+          "sha256": "e17e690b9da90af109a64d482dee1f4f64c965f42a88af021e933d22214b2dc6"
+        },
+        {
+          "fold": 2,
+          "path": "runs/res18_unet_v2/fold_2/best.pt",
+          "sha256": "84c077dedfd74a82241cf28e22c2ef26e0d1602aaaa2ef7adf44fa8032e3f1f0"
+        },
+        {
+          "fold": 3,
+          "path": "runs/res18_unet_v2/fold_3/best.pt",
+          "sha256": "bd4239a95890e453a1d93fea02cd9196f6bddfade3070a07778f7bf6f3f2c7b2"
+        },
+        {
+          "fold": 4,
+          "path": "runs/res18_unet_v2/fold_4/best.pt",
+          "sha256": "8d92a010f3d176f58df1ee200f05fd853e6ebd9f08e8ab8100a23cfe7b06579b"
+        }
+      ],
+      "weight": 0.25
+    },
+    {
+      "name": "effb0_unet_v2",
+      "implementation": "lab",
+      "run_dir": "runs/effb0_unet_v2",
+      "tta": true,
+      "tta_mode": "flip4",
+      "spatial_mode": "full",
+      "checkpoints": [
+        {
+          "fold": 0,
+          "path": "runs/effb0_unet_v2/fold_0/best.pt",
+          "sha256": "34043c8f311a080b14ad07ac9d47ee9098b49eaf1b41b234ec3265dde89c1b02"
+        },
+        {
+          "fold": 1,
+          "path": "runs/effb0_unet_v2/fold_1/best.pt",
+          "sha256": "db02d7e4cfd812c8b0093cb59d6a7a838ecc3c621da7bd89830304edd1052448"
+        },
+        {
+          "fold": 2,
+          "path": "runs/effb0_unet_v2/fold_2/best.pt",
+          "sha256": "110c4704c1fbf0b78f7539f02fe5b4beebc9096a555921dad78c9308a28888ed"
+        },
+        {
+          "fold": 3,
+          "path": "runs/effb0_unet_v2/fold_3/best.pt",
+          "sha256": "7f7b1d008351adced9afc9b8cb1bda950e8164b0c982ea568ceb75d02a0e81bc"
+        },
+        {
+          "fold": 4,
+          "path": "runs/effb0_unet_v2/fold_4/best.pt",
+          "sha256": "039ddabe32c65ac4b6056a9d76d1580cb7af3667cc2dbabced4e75fa169d26cb"
+        }
+      ],
+      "weight": 0.25
+    }
+  ],
+  "threshold": 0.54,
+  "target_hw": [
+    512,
+    512
+  ],
+  "foreground": "vessel",
+  "order": "row_major_C",
+  "seed": 20261103,
+  "dataset_sha256": "8ccfbb94d468256e94e5a805d8400d4d33672d27dfbd87f3e121b05ef8663810",
+  "torch": "2.10.0+cu130"
+}

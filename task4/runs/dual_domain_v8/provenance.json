@@ -1,0 +1,97 @@
+{
+  "config": {
+    "name": "dual_domain_v8",
+    "seed": 20261106,
+    "folds": [
+      0,
+      3,
+      1,
+      2,
+      4
+    ],
+    "initialization": "random_no_external_data_or_weights",
+    "data": {
+      "size": 512,
+      "patch": 160,
+      "native_target": "Pillow_NEAREST",
+      "submission_target": "Pillow_uint8_BILINEAR_then_positive",
+      "extra_channels": "whole_image_green_standardization_and_green_local_contrast"
+    },
+    "model": {
+      "channels": [
+        24,
+        40,
+        64,
+        96
+      ],
+      "drop": 0.1
+    },
+    "train": {
+      "steps": 3000,
+      "batch_size": 8,
+      "lr": 0.001,
+      "min_lr": 2e-05,
+      "warmup_steps": 150,
+      "weight_decay": 0.0001,
+      "validate_every": 500,
+      "ema_decay": 0.99,
+      "cpu_threads": 4
+    },
+    "augmentation": {
+      "angle_degrees": [
+        -180,
+        180
+      ],
+      "scale": [
+        0.85,
+        1.25
+      ],
+      "vessel_center_fraction": 0.25,
+      "brightness": [
+        0.8,
+        1.2
+      ],
+      "contrast": [
+        0.85,
+        1.15
+      ],
+      "gamma": [
+        0.75,
+        1.35
+      ],
+      "noise_std": [
+        0.0,
+        0.01
+      ]
+    },
+    "inference": {
+      "tta": "d4",
+      "threshold": 0.5
+    },
+    "checkpoint_metric": "held_out_mean_Dice_submission_target_at_0.5_EMA",
+    "platform_assumption": "Unconfirmed label preparation; motivated by supplied encoder and observed platform score.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11161363/"
+    ]
+  },
+  "source_sha256": {
+    "vessel_lab/dual_domain.py": "df66f8e3b52c98d06600ba69ae8336c97f3e6e58abf27ee911225a0a1871fb06",
+    "vessel_lab/dual_domain_study.py": "5348a83f625694acbdf62c90c042e2a36b858f51ce09c0ff1cdac008dcea1d08",
+    "vessel_lab/submission_domain.py": "81d694ea27a06154491eebf2ff2b6ac45043fa2fdcd491975b7636d20cd0de3b",
+    "vessel_lab/inference.py": "81e5dcab63d4c8a51060644284143fde6d46f46ebeb650d202770ccb0e8e5740",
+    "vessel_lab/train.py": "e5bad62f02a5e4dbb2d4d442c789958a79aa4f2d1f5c979a06fe4a7f50b47537",
+    "vessel_lab/runtime.py": "6b943c1644b3dbd06bf75182b3232461895588ab8a1a523a7af71881f10b89c5",
+    "vessel_lab/resilient_io.py": "7b1155d77be50ad809db802e8b84de3fcd0af7b575ace6dbe1c2b071aef70336",
+    "vessel/data.py": "3fa00ea788e053e5e9245fbe669f658fea98e666f755132f52b47300f5a5e6ca",
+    "vessel/metrics.py": "a0e055f9cb48d2fbf0d7b99ea7784ee04b1f959fe0c50d0e1d73313efae69b56",
+    "vessel/runtime.py": "b7fd8a3bafba8c5678a9a0bb98a927038e39ef018c570eda73decbc431be7507",
+    "vessel/rle.py": "9aa4b41bf33fa3f853b838527b29f9179620eb261c00ea75b64cad9e82a67771",
+    "tools/prepare_submission.py": "3d46843c71fa81b920da39302cb48d6b579e887bf01c55e6ae745d31b4874a22"
+  },
+  "dataset_sha256": "8ccfbb94d468256e94e5a805d8400d4d33672d27dfbd87f3e121b05ef8663810",
+  "fold_sha256": "c946892e7625d55252d80f750d3432e0c5a9fa729704947994f8215ed487d859",
+  "torch": "2.10.0+cu130",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "baseline_oof_sha256": "13ab9a78e743741b98c1f4f75468ce1e83cf09ca0d570493f35aeaa99b54fc44"
+}

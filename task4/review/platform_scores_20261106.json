@@ -1,0 +1,33 @@
+{
+  "metric": "public_Dice",
+  "records": [
+    {
+      "filename": "submission.csv",
+      "score": 0.74323,
+      "source": "user_provided_platform_screenshot"
+    },
+    {
+      "filename": "submission_v3.csv",
+      "score": 0.75625,
+      "source": "user_provided_platform_screenshot"
+    },
+    {
+      "filename": "submission_v3_script_compatible.csv",
+      "score": 0.85697,
+      "source": "user_confirmation_in_chat",
+      "csv_sha256": "6cbb6939db4cce475ff68d47d7e17e3c617c42373f2583d8ffc8842474cb61e2"
+    },
+    {
+      "filename": "submission_v8_fusion.csv",
+      "score": 0.85803,
+      "source": "user_confirmation_in_chat",
+      "csv_sha256": "c8cafc3936b0c6cbf79a15d9f317883931a78af8d14301dba297154032014d5a"
+    },
+    {
+      "filename": "submission_v9_calibrated.csv",
+      "score": 0.86017,
+      "source": "user_confirmation_in_chat",
+      "csv_sha256": "8d49aa138f5ccbbe1929601d4044b38dd3c3cb3e0ef61258d93382d31cf61cc9"
+    }
+  ]
+}

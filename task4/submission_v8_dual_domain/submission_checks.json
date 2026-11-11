@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "columns": [
+    "Id",
+    "Predicted"
+  ],
+  "rows": 20,
+  "ids_in_sample_order": true,
+  "target_hw": [
+    512,
+    512
+  ],
+  "rle_start_index": 1,
+  "rle_order": "row_major_C",
+  "rle_foreground": "vessel",
+  "masks_binary": true,
+  "all_rle_runs_sorted_positive_nonoverlapping_in_bounds": true,
+  "all_decode_roundtrips_match_png": true,
+  "csv_sha256": "91167e3d4ef2fde0f0c48bf2131e410721ae964594ffb15737cc0916a6c05276",
+  "per_image": [
+    {
+      "id": "1",
+      "vessel_pixels": 31817,
+      "vessel_fraction": 0.12137222290039062,
+      "rle_runs": 3884
+    },
+    {
+      "id": "2",
+      "vessel_pixels": 30389,
+      "vessel_fraction": 0.11592483520507812,
+      "rle_runs": 4174
+    },
+    {
+      "id": "3",
+      "vessel_pixels": 28799,
+      "vessel_fraction": 0.10985946655273438,
+      "rle_runs": 3722
+    },
+    {
+      "id": "4",
+      "vessel_pixels": 31136,
+      "vessel_fraction": 0.1187744140625,
+      "rle_runs": 4161
+    },
+    {
+      "id": "5",
+      "vessel_pixels": 33286,
+      "vessel_fraction": 0.12697601318359375,
+      "rle_runs": 4056
+    },
+    {
+      "id": "6",
+      "vessel_pixels": 33215,
+      "vessel_fraction": 0.12670516967773438,
+      "rle_runs": 4339
+    },
+    {
+      "id": "7",
+      "vessel_pixels": 34810,
+      "vessel_fraction": 0.13278961181640625,
+      "rle_runs": 5155
+    },
+    {
+      "id": "8",
+      "vessel_pixels": 33052,
+      "vessel_fraction": 0.1260833740234375,
+      "rle_runs": 4364
+    },
+    {
+      "id": "9",
+      "vessel_pixels": 33885,
+      "vessel_fraction": 0.12926101684570312,
+      "rle_runs": 4961
+    },
+    {
+      "id": "10",
+      "vessel_pixels": 32107,
+      "vessel_fraction": 0.12247848510742188,
+      "rle_runs": 4534
+    },
+    {
+      "id": "11",
+      "vessel_pixels": 28488,
+      "vessel_fraction": 0.108673095703125,
+      "rle_runs": 4292
+    },
+    {
+      "id": "12",
+      "vessel_pixels": 28373,
+      "vessel_fraction": 0.10823440551757812,
+      "rle_runs": 4047
+    },
+    {
+      "id": "13",
+      "vessel_pixels": 38104,
+      "vessel_fraction": 0.145355224609375,
+      "rle_runs": 4921
+    },
+    {
+      "id": "14",
+      "vessel_pixels": 32355,
+      "vessel_fraction": 0.12342453002929688,
+      "rle_runs": 4483
+    },
+    {
+      "id": "15",
+      "vessel_pixels": 36944,
+      "vessel_fraction": 0.14093017578125,
+      "rle_runs": 4888
+    },
+    {
+      "id": "16",
+      "vessel_pixels": 30984,
+      "vessel_fraction": 0.118194580078125,
+      "rle_runs": 4615
+    },
+    {
+      "id": "17",
+      "vessel_pixels": 34123,
+      "vessel_fraction": 0.13016891479492188,
+      "rle_runs": 4780
+    },
+    {
+      "id": "18",
+      "vessel_pixels": 35544,
+      "vessel_fraction": 0.135589599609375,
+      "rle_runs": 5049
+    },
+    {
+      "id": "19",
+      "vessel_pixels": 31191,
+      "vessel_fraction": 0.11898422241210938,
+      "rle_runs": 4546
+    },
+    {
+      "id": "20",
+      "vessel_pixels": 29717,
+      "vessel_fraction": 0.11336135864257812,
+      "rle_runs": 3934
+    }
+  ],
+  "exact_supplied_encoder_match": true,
+  "encoder_input": "512_binary_masks"
+}

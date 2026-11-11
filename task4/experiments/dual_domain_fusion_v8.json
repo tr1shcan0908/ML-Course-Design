@@ -1,0 +1,11 @@
+{
+  "description": "Compare a trained dual-domain model with the script-compatible v3 in the same target space.",
+  "v3_native_threshold": 0.54,
+  "transport_grid_step": 0.02,
+  "candidate_weights": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "final_threshold": 0.5,
+  "primary_fixed_candidate_weight": 0.25,
+  "selection_note": "All weights are locally compared; report leave-one-fold-out weight selection separately as a sensitivity check, not a new independent test set.",
+  "promotion_minimum_mean_gain": 0.001,
+  "promotion_minimum_nonnegative_folds": 3
+}

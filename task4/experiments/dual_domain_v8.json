@@ -1,0 +1,38 @@
+{
+  "name": "dual_domain_v8",
+  "seed": 20261106,
+  "folds": [0, 3, 1, 2, 4],
+  "initialization": "random_no_external_data_or_weights",
+  "data": {
+    "size": 512,
+    "patch": 160,
+    "native_target": "Pillow_NEAREST",
+    "submission_target": "Pillow_uint8_BILINEAR_then_positive",
+    "extra_channels": "whole_image_green_standardization_and_green_local_contrast"
+  },
+  "model": {"channels": [24, 40, 64, 96], "drop": 0.1},
+  "train": {
+    "steps": 3000,
+    "batch_size": 8,
+    "lr": 0.001,
+    "min_lr": 0.00002,
+    "warmup_steps": 150,
+    "weight_decay": 0.0001,
+    "validate_every": 500,
+    "ema_decay": 0.99,
+    "cpu_threads": 4
+  },
+  "augmentation": {
+    "angle_degrees": [-180, 180],
+    "scale": [0.85, 1.25],
+    "vessel_center_fraction": 0.25,
+    "brightness": [0.8, 1.2],
+    "contrast": [0.85, 1.15],
+    "gamma": [0.75, 1.35],
+    "noise_std": [0.0, 0.01]
+  },
+  "inference": {"tta": "d4", "threshold": 0.5},
+  "checkpoint_metric": "held_out_mean_Dice_submission_target_at_0.5_EMA",
+  "platform_assumption": "Unconfirmed label preparation; motivated by supplied encoder and observed platform score.",
+  "references": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC11161363/"]
+}

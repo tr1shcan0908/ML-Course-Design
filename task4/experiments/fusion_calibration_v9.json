@@ -1,0 +1,12 @@
+{
+  "baseline_public_score": 0.85803,
+  "baseline_csv": "submission_v8_fusion.csv",
+  "candidate_weights": [0.15, 0.25, 0.35],
+  "thresholds": [0.42, 0.46, 0.5],
+  "baseline_weight": 0.25,
+  "baseline_threshold": 0.5,
+  "minimum_gain": 0.0005,
+  "minimum_crossfit_gain": 0.0005,
+  "minimum_nonnegative_folds": 3,
+  "selection_note": "Small fixed nine-point local calibration grid; original five folds reused, so not an independent estimate. No new platform score is used in choosing a grid point."
+}
