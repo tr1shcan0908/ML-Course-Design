@@ -1,0 +1,34 @@
+{
+  "export_date": "2026-11-11",
+  "repository": "https://github.com/tr1shcan0908/ML-Course-Design",
+  "tasks": [
+    {
+      "directory": "task1",
+      "final": "DINOv2-B layer 8 + SVC, seed142",
+      "notebook": "https://www.kaggle.com/code/changyangli0908/notebook4a34c3d49e/notebook",
+      "metric": "OOF Accuracy 0.962",
+      "submission_sha256": "19303f9c3c6bbac3aed4d88905af1ca333e2261b9aaf14d557a2f82dfa5838bc"
+    },
+    {
+      "directory": "task2",
+      "final": "ConvNeXt + QCS + EmoNeXt + EmotiEff-B2, equal weights",
+      "notebook": "https://www.kaggle.com/code/changyangli0908/notebooke316458626?scriptVersionId=359418547",
+      "metric": "Kaggle Public 0.742",
+      "submission_sha256": "3b0b3912924dab7d1866673e91daddf36e904ef167fb73deb1f3e80db2353788"
+    },
+    {
+      "directory": "task3",
+      "final": "heatmap+fov512, weights 0.5/0.5",
+      "local_record": "2026task3/outputs/round2_fov",
+      "metric": "OOF coordinate RMSE 12.4893407615 px",
+      "submission_sha256": "e42a58fb7ac028b5859c9a5650df549a29fa2c8a9315da03f4b4aa7cc47a3a43"
+    },
+    {
+      "directory": "task4",
+      "final": "v9 calibrated, weights 0.65/0.35, threshold 0.42",
+      "notebook": "https://www.kaggle.com/code/changyangli0908/notebookdfa66d62eb",
+      "metric": "Kaggle Public Dice 0.86017",
+      "submission_sha256": "8d49aa138f5ccbbe1929601d4044b38dd3c3cb3e0ef61258d93382d31cf61cc9"
+    }
+  ]
+}

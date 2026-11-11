@@ -1,0 +1,252 @@
+{
+  "task": "task1",
+  "export_date": "2026-11-11",
+  "verification": {
+    "historical_experiment_sources": 7,
+    "source_hashes_match": true,
+    "fold_hash_matches": true,
+    "notebook_cells": 18
+  },
+  "files": {
+    "README.md": {
+      "sha256": "cc4e42d78c2e77f12e1a68c1e075a4c78b95689a17675e2b3517588d86577acd",
+      "bytes": 1784,
+      "origin": "Added for this GitHub source export",
+      "role": "export documentation/utility"
+    },
+    "dino_token_framework.py": {
+      "sha256": "4435d56e413a4ea6785eae2fe2e6affc48f65d4729b1ef5d3e9c66727199239c",
+      "bytes": 2139,
+      "origin": "2026task1/dino_token_framework.py",
+      "role": "recorded source"
+    },
+    "evaluate_frozen_patch_probe.py": {
+      "sha256": "137dd56d8355cec53d0e464d585d415f5f902c8da7159e854399b840afdad874",
+      "bytes": 13969,
+      "origin": "2026task1/evaluate_frozen_patch_probe.py",
+      "role": "recorded source"
+    },
+    "joint_foreground_modules.py": {
+      "sha256": "73045bc956d9dd365f256fcbdff343a543fb37a06271836a83025d53c9a38065",
+      "bytes": 4940,
+      "origin": "2026task1/joint_foreground_modules.py",
+      "role": "recorded source"
+    },
+    "midlayer_finetune_framework.py": {
+      "sha256": "ba573400b468ad0a1a9e9566963baf387cef4675e25ac33837c8b90ec762806a",
+      "bytes": 3479,
+      "origin": "2026task1/midlayer_finetune_framework.py",
+      "role": "recorded source"
+    },
+    "notebook4a34c3d49e.ipynb": {
+      "sha256": "4cc8c7c232888fae35f79beb9e157721f6aa649d8b499aefbf759ad20b6537c1",
+      "bytes": 127842,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb",
+      "role": "recorded source"
+    },
+    "outputs/experiments/convnext_tiny_stage2_320/fold_assignments.csv": {
+      "sha256": "d0514b5c6a0c508f8d16ed8fd00bf5d14ca2e7d244d0e6253ac20e7e36f3b772",
+      "bytes": 17126,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#FOLDS_BASE64",
+      "role": "fixed fold assignment"
+    },
+    "plant_fusion_modules.py": {
+      "sha256": "4ba9693589649c2ea15745d1552feae655281dfe2ffa6b3896029816b908b9cf",
+      "bytes": 6887,
+      "origin": "2026task1/plant_fusion_modules.py",
+      "role": "recorded source"
+    },
+    "predict_midlayer_finetune.py": {
+      "sha256": "b3b39031199ff2bc039c5db21e03dda8831bb408bbce9e63215794144dac87d3",
+      "bytes": 4634,
+      "origin": "2026task1/predict_midlayer_finetune.py",
+      "role": "recorded source"
+    },
+    "provenance/notebook_import.json": {
+      "sha256": "6b8e00ea43aa6e33af4d8e0a0006c2bc424a60bfc2b4bcf0450d58016ccb0fc0",
+      "bytes": 693,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/import_result.json",
+      "role": "notebook version record"
+    },
+    "provenance/source_manifest.json": {
+      "sha256": "d33cb54d0d87ab06732e6bcb9825b9bb75622c9bb2aa30931bbd82269b72705c",
+      "bytes": 2741,
+      "origin": "2026task1/kaggle/source_manifest.json",
+      "role": "historical fingerprints"
+    },
+    "reference/audit.json": {
+      "sha256": "0ee4d7d553ef6e1f6a8d0935119dfb9e5485e2ee74ba591ce17797b60bb6ef24",
+      "bytes": 651,
+      "origin": "2026task1/outputs/experiments/dinov2b_mid_finetune_seed142/audit.json",
+      "role": "final experiment record"
+    },
+    "reference/config.portable.json": {
+      "sha256": "68a6f1a7863f9e11cea4cb2fa33e2c9d538254b2e8d6419f78567f0ba7f23303",
+      "bytes": 994,
+      "origin": "Final config.json; four machine-specific paths made relative",
+      "role": "provenance"
+    },
+    "reference/fold_assignments.csv": {
+      "sha256": "d0514b5c6a0c508f8d16ed8fd00bf5d14ca2e7d244d0e6253ac20e7e36f3b772",
+      "bytes": 17126,
+      "origin": "2026task1/outputs/experiments/dinov2b_mid_finetune_seed142/fold_assignments.csv",
+      "role": "final experiment record"
+    },
+    "reference/metrics.json": {
+      "sha256": "43223c775de8c9635a09b82343129f135124ffb68ecda7e2731e9e83a2e6f4a5",
+      "bytes": 5039,
+      "origin": "2026task1/outputs/experiments/dinov2b_mid_finetune_seed142/metrics.json",
+      "role": "final experiment record"
+    },
+    "reference/oof_svc.csv": {
+      "sha256": "ccc41f63b49f0314c20045fd88a77ef76e6d707e4e4250b347603b8ca2e81488",
+      "bytes": 73875,
+      "origin": "2026task1/outputs/experiments/dinov2b_mid_finetune_seed142/oof_svc.csv",
+      "role": "final experiment record"
+    },
+    "reference/submission.csv": {
+      "sha256": "19303f9c3c6bbac3aed4d88905af1ca333e2261b9aaf14d557a2f82dfa5838bc",
+      "bytes": 11657,
+      "origin": "2026task1/outputs/experiments/dinov2b_mid_finetune_seed142/submission.csv",
+      "role": "final experiment record"
+    },
+    "reference/test_probabilities_svc.csv": {
+      "sha256": "2a3ee51e8597107057095881e5bd0d3719323971cf3d7dc80c05c759bda533e4",
+      "bytes": 50698,
+      "origin": "2026task1/outputs/experiments/dinov2b_mid_finetune_seed142/test_probabilities_svc.csv",
+      "role": "final experiment record"
+    },
+    "requirements.txt": {
+      "sha256": "61b97928e519de20921bcfdb618be414c8bd35963a50e0a1b81e4fe559412377",
+      "bytes": 142,
+      "origin": "Added for this GitHub source export",
+      "role": "export documentation/utility"
+    },
+    "submission-for-task2.csv": {
+      "sha256": "f6c920eeb07b551fe7a2a2bbd141480784cf85ddb7570d6aba21f23cc8db1e6a",
+      "bytes": 6060,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#TEMPLATE_BASE64",
+      "role": "submission template"
+    },
+    "train_classifier.py": {
+      "sha256": "1cdcdf675dca05d99e81a1e93b59af1f9ddc4bcd45a243529a5031a3b6c704c9",
+      "bytes": 31577,
+      "origin": "2026task1/train_classifier.py",
+      "role": "recorded source"
+    },
+    "train_dino_token.py": {
+      "sha256": "d6815da4f6a0478c03dcc16c7bf1a38890c592f34afb0282985d1d814e53db23",
+      "bytes": 16272,
+      "origin": "2026task1/train_dino_token.py",
+      "role": "recorded source"
+    },
+    "train_midlayer_finetune.py": {
+      "sha256": "fd4b8e161025450bc240863fc0c62bba1528bb211381d022544e5be07c2376b6",
+      "bytes": 17920,
+      "origin": "2026task1/train_midlayer_finetune.py",
+      "role": "recorded source"
+    },
+    "vendor/DINOV2_LICENSE.txt": {
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+      "bytes": 11359,
+      "origin": "2026task1/kaggle/DINOV2_LICENSE.txt",
+      "role": "upstream license"
+    },
+    "vendor/dinov2/LICENSE": {
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+      "bytes": 11359,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/LICENSE",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/__init__.py": {
+      "sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+      "bytes": 218,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/__init__.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/hub/__init__.py": {
+      "sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "bytes": 195,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/hub/__init__.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/hub/backbones.py": {
+      "sha256": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+      "bytes": 5586,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/hub/backbones.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/hub/utils.py": {
+      "sha256": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+      "bytes": 1598,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/hub/utils.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/__init__.py": {
+      "sha256": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+      "bytes": 498,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/__init__.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/attention.py": {
+      "sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+      "bytes": 3298,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/attention.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/block.py": {
+      "sha256": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+      "bytes": 11609,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/block.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/dino_head.py": {
+      "sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+      "bytes": 2007,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/dino_head.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/drop_path.py": {
+      "sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+      "bytes": 1157,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/drop_path.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/layer_scale.py": {
+      "sha256": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+      "bytes": 1097,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/layer_scale.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/mlp.py": {
+      "sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+      "bytes": 1269,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/mlp.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/patch_embed.py": {
+      "sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+      "bytes": 2829,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/patch_embed.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/layers/swiglu_ffn.py": {
+      "sha256": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+      "bytes": 3200,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/layers/swiglu_ffn.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/models/__init__.py": {
+      "sha256": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+      "bytes": 1574,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/models/__init__.py",
+      "role": "vendored upstream source/license"
+    },
+    "vendor/dinov2/dinov2/models/vision_transformer.py": {
+      "sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "bytes": 16438,
+      "origin": "2026task1/kaggle/target_notebook4a34c3d49e/project_import.ipynb#DINO_SOURCE_BASE64/dinov2/models/vision_transformer.py",
+      "role": "vendored upstream source/license"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "notebook_id": 137463159,
+  "target": "changyangli0908/notebook4a34c3d49e",
+  "title": "notebook4a34c3d49e",
+  "notebook_url": "https://www.kaggle.com/code/changyangli0908/notebook4a34c3d49e",
+  "version": 2,
+  "cells": 18,
+  "dataset_sources": [
+    "changyangli0908/plant-seedlings-task2-20261007-8d15d7"
+  ],
+  "competition_sources": [
+    "2026task1"
+  ],
+  "kernel_sources": [
+    "changyangli0908/plant-seedlings-dinov2b-seed142-20261007-8d15d7"
+  ],
+  "backup": "before_version_1.ipynb",
+  "data_locator_verified": true,
+  "execution_type": "QUICK_SAVE",
+  "remote_source_verified": true,
+  "private": true,
+  "gpu_enabled": true,
+  "internet_enabled": true
+}

@@ -1,0 +1,30 @@
+{
+  "data_root": "dataset-for-task2/dataset-for-task2",
+  "submission_template": "submission-for-task2.csv",
+  "reference_run": "outputs/experiments/convnext_tiny_stage2_320",
+  "output_dir": "outputs/experiments/dinov2b_mid_finetune_seed142",
+  "image_size": 336,
+  "batch_size": 4,
+  "accumulation": 4,
+  "workers": 0,
+  "warmup_epochs": 2,
+  "finetune_epochs": 6,
+  "lr_warmup": 0.001,
+  "lr_backbone": 1e-05,
+  "lr_head": 0.0001,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.05,
+  "c_grid": "0.1,1,10,100,1000",
+  "seed": 142,
+  "class_names": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "split_sha256": "d0514b5c6a0c508f8d16ed8fd00bf5d14ca2e7d244d0e6253ac20e7e36f3b772",
+  "pretrained_sha256": "73182a088cf94833c94b1666d1c99e02fe87e2007bff57b564fb6206e25dba71",
+  "torch_version": "2.10.0+cu130",
+  "validation_policy": "Fixed schedule and inner SVC CV; outer labels never select checkpoints or hyperparameters."
+}

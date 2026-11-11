@@ -1,0 +1,33 @@
+{
+  "reference": "DINOv2-B layer 8 partial fine-tuning, seed 142",
+  "split_sha256": "d0514b5c6a0c508f8d16ed8fd00bf5d14ca2e7d244d0e6253ac20e7e36f3b772",
+  "pretrained_sha256": "73182a088cf94833c94b1666d1c99e02fe87e2007bff57b564fb6206e25dba71",
+  "dino_archive_sha256": "b114c3dcece205f72b55c4816fd7963f76e30706da79ebcafa6778adfdcbf342",
+  "dino_source_sha256": {
+    "LICENSE": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+    "dinov2/__init__.py": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+    "dinov2/hub/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+    "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+    "dinov2/hub/utils.py": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+    "dinov2/models/__init__.py": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+    "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+    "dinov2/layers/__init__.py": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+    "dinov2/layers/attention.py": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+    "dinov2/layers/block.py": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+    "dinov2/layers/dino_head.py": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+    "dinov2/layers/drop_path.py": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+    "dinov2/layers/layer_scale.py": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+    "dinov2/layers/mlp.py": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+    "dinov2/layers/patch_embed.py": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+    "dinov2/layers/swiglu_ffn.py": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119"
+  },
+  "experiment_source_sha256": {
+    "train_classifier.py": "1cdcdf675dca05d99e81a1e93b59af1f9ddc4bcd45a243529a5031a3b6c704c9",
+    "train_dino_token.py": "d6815da4f6a0478c03dcc16c7bf1a38890c592f34afb0282985d1d814e53db23",
+    "joint_foreground_modules.py": "73045bc956d9dd365f256fcbdff343a543fb37a06271836a83025d53c9a38065",
+    "midlayer_finetune_framework.py": "ba573400b468ad0a1a9e9566963baf387cef4675e25ac33837c8b90ec762806a",
+    "evaluate_frozen_patch_probe.py": "137dd56d8355cec53d0e464d585d415f5f902c8da7159e854399b840afdad874",
+    "train_midlayer_finetune.py": "fd4b8e161025450bc240863fc0c62bba1528bb211381d022544e5be07c2376b6",
+    "predict_midlayer_finetune.py": "b3b39031199ff2bc039c5db21e03dda8831bb408bbce9e63215794144dac87d3"
+  }
+}

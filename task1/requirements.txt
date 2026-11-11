@@ -1,0 +1,7 @@
+# Install the CUDA-compatible torch/torchvision build for your GPU.
+torch==2.10.0
+torchvision==0.25.0
+numpy
+Pillow
+joblib
+scikit-learn==1.7.2

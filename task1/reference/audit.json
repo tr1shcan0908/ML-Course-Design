@@ -1,0 +1,22 @@
+{
+  "fold_isolation_verified": true,
+  "oof_count": 500,
+  "test_count": 378,
+  "fine_tuned_accuracy": 0.962,
+  "frozen_accuracy": 0.954,
+  "accuracy_delta_pp": 0.8,
+  "paired_bootstrap_95ci_pp": [
+    -0.6,
+    2.1999999999999997
+  ],
+  "corrected_vs_frozen": 9,
+  "introduced_vs_frozen": 5,
+  "mcnemar_exact_p": 0.4239501953125,
+  "grass_pair_errors": 12,
+  "test_probabilities_valid": true,
+  "interpretation": "Fixed OOF predictions; interval does not include training or model-selection variation.",
+  "independent_test_reload": {
+    "max_abs_probability_difference": 2.220446049250313e-16,
+    "changed_categories": 0
+  }
+}
