@@ -1,0 +1,86 @@
+{
+  "retrieved": "2026-10-11",
+  "files": [
+    {
+      "path": "third_party/emonext/models.py",
+      "repository": "yelboudouri/EmoNeXt",
+      "commit": "ce77dc13e13d3b09742f0f4efb9dd83fcf3b6c95",
+      "upstream_path": "models.py",
+      "upstream_blob_sha": "6c645324a957f81f98ccc2dabde828674d3e8601",
+      "source_url": "https://github.com/yelboudouri/EmoNeXt/blob/ce77dc13e13d3b09742f0f4efb9dd83fcf3b6c95/models.py"
+    },
+    {
+      "path": "third_party/nla/loss.py",
+      "repository": "jungyu0413/NLA",
+      "commit": "7bc363b559699c28afd1a19f4bc8b2857f917c40",
+      "upstream_path": "src/loss.py",
+      "upstream_blob_sha": "ed92d05c11bcc964c059d14fe5b44242ffc18689",
+      "source_url": "https://github.com/jungyu0413/NLA/blob/7bc363b559699c28afd1a19f4bc8b2857f917c40/src/loss.py"
+    },
+    {
+      "path": "third_party/nla/train.py",
+      "repository": "jungyu0413/NLA",
+      "commit": "7bc363b559699c28afd1a19f4bc8b2857f917c40",
+      "upstream_path": "src/train.py",
+      "upstream_blob_sha": "833e0260c2730b267a1e87aaea161c93a310aece",
+      "source_url": "https://github.com/jungyu0413/NLA/blob/7bc363b559699c28afd1a19f4bc8b2857f917c40/src/train.py"
+    },
+    {
+      "path": "third_party/nla/main_rafdb.py",
+      "repository": "jungyu0413/NLA",
+      "commit": "7bc363b559699c28afd1a19f4bc8b2857f917c40",
+      "upstream_path": "main_rafdb.py",
+      "upstream_blob_sha": "706a5c8d2895f6e91050ec64b0c29956f13cd6b2",
+      "source_url": "https://github.com/jungyu0413/NLA/blob/7bc363b559699c28afd1a19f4bc8b2857f917c40/main_rafdb.py"
+    },
+    {
+      "path": "third_party/qcs/models/QCS_7cls_raf_db.py",
+      "repository": "birdwcp/QCS",
+      "commit": "293f28f948dccdca385917fbc0cfeafd6220d2e2",
+      "upstream_path": "models/QCS_7cls_raf_db.py",
+      "upstream_blob_sha": "746aa7db097de9fb2c588fb42ae9bb0ecb524e59",
+      "source_url": "https://github.com/birdwcp/QCS/blob/293f28f948dccdca385917fbc0cfeafd6220d2e2/models/QCS_7cls_raf_db.py"
+    },
+    {
+      "path": "third_party/qcs/models/vit_model_7cls.py",
+      "repository": "birdwcp/QCS",
+      "commit": "293f28f948dccdca385917fbc0cfeafd6220d2e2",
+      "upstream_path": "models/vit_model_7cls.py",
+      "upstream_blob_sha": "62b7ab3405921655611c6f962d901d3207920f74",
+      "source_url": "https://github.com/birdwcp/QCS/blob/293f28f948dccdca385917fbc0cfeafd6220d2e2/models/vit_model_7cls.py"
+    },
+    {
+      "path": "third_party/qcs/models/ir50.py",
+      "repository": "birdwcp/QCS",
+      "commit": "293f28f948dccdca385917fbc0cfeafd6220d2e2",
+      "upstream_path": "models/ir50.py",
+      "upstream_blob_sha": "ed8e4bfcde77c3abae359bb20d0fbbacdf7973bb",
+      "source_url": "https://github.com/birdwcp/QCS/blob/293f28f948dccdca385917fbc0cfeafd6220d2e2/models/ir50.py"
+    },
+    {
+      "path": "third_party/qcs/utils.py",
+      "repository": "birdwcp/QCS",
+      "commit": "293f28f948dccdca385917fbc0cfeafd6220d2e2",
+      "upstream_path": "utils.py",
+      "upstream_blob_sha": "3ebf777ce53281bdd33b471b1c3efb532d267ea4",
+      "source_url": "https://github.com/birdwcp/QCS/blob/293f28f948dccdca385917fbc0cfeafd6220d2e2/utils.py"
+    },
+    {
+      "path": "third_party/qcs/sam.py",
+      "repository": "birdwcp/QCS",
+      "commit": "293f28f948dccdca385917fbc0cfeafd6220d2e2",
+      "upstream_path": "data_processing/sam.py",
+      "upstream_blob_sha": "d82f0bda0e59e17700306311ccf5ad578edb4b39",
+      "source_url": "https://github.com/birdwcp/QCS/blob/293f28f948dccdca385917fbc0cfeafd6220d2e2/data_processing/sam.py"
+    },
+    {
+      "path": "third_party/qcs/LICENSE",
+      "repository": "birdwcp/QCS",
+      "commit": "293f28f948dccdca385917fbc0cfeafd6220d2e2",
+      "upstream_path": "LICENSE",
+      "upstream_blob_sha": "4edaf82e3b2386d3b50e9de7850fc615508b1e10",
+      "source_url": "https://github.com/birdwcp/QCS/blob/293f28f948dccdca385917fbc0cfeafd6220d2e2/LICENSE"
+    }
+  ],
+  "note": "QCS local adaptation is documented in experiments/README.md; other references are retained for traceability."
+}

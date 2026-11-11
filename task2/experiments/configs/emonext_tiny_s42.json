@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "data": "artifacts/data",
+  "epochs": 12,
+  "batch_size": 16,
+  "accumulation_steps": 2,
+  "effective_batch_size": 32,
+  "eval_batch_size": 64,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.2,
+  "warmup_epochs": 2,
+  "ema": true,
+  "selection_metric": "validation_macro_f1",
+  "pretrained": "artifacts/weights/convnext_tiny_22k_224.pth",
+  "name": "emonext_tiny_s42",
+  "model": "emonext",
+  "loss": "ce",
+  "output": "runs/emonext_tiny_s42"
+}

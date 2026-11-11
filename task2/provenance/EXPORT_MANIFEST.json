@@ -1,0 +1,372 @@
+{
+  "task": "task2",
+  "export_date": "2026-11-11",
+  "verification": {
+    "embedded_source_files": 39,
+    "notebook_archive_byte_identical": true,
+    "original_training_fingerprint_matches_found": 7,
+    "notebook_cells": 20
+  },
+  "files": {
+    "README.md": {
+      "sha256": "fbc57f0f8204654b60c589e355839bdb015a54c57d200bf6205ed2e9c798facc",
+      "bytes": 2256,
+      "origin": "Added for this GitHub source export",
+      "role": "export documentation/utility"
+    },
+    "experiments/configs/convnext_tiny_s42.json": {
+      "sha256": "b064de795de445d3f01a6efbff7e87a91671d0920e81cf0dcc6b302c8cc67599",
+      "bytes": 484,
+      "origin": "2026task2/fer_data/fer_data/experiments/configs/convnext_tiny_s42.json",
+      "role": "final training configuration"
+    },
+    "experiments/configs/emonext_tiny_s42.json": {
+      "sha256": "284e638b1d421bd16d752acb60b0204b39ba5cb7ffff3f3dcf8d89bc5d1c0634",
+      "bytes": 481,
+      "origin": "2026task2/fer_data/fer_data/experiments/configs/emonext_tiny_s42.json",
+      "role": "final training configuration"
+    },
+    "experiments/configs/qcs_s42.json": {
+      "sha256": "429fcbbf962d6645ffd70d803cb8081e488000cd84f4cdf55aa32f1252f77fd8",
+      "bytes": 448,
+      "origin": "2026task2/fer_data/fer_data/experiments/configs/qcs_s42.json",
+      "role": "final training configuration"
+    },
+    "experiments/configs/transfer_emotieff_b2_ce_s42.json": {
+      "sha256": "81529f987c04a762c3f4a14bff1ddf9b433ed5365e8097c6e577b92e31b860c2",
+      "bytes": 882,
+      "origin": "2026task2/fer_data/fer_data/experiments/configs/transfer_emotieff_b2_ce_s42.json",
+      "role": "final training configuration"
+    },
+    "fer/__init__.py": {
+      "sha256": "b029e094582436d74053f551bce2ce6721c7b1b51031000a06fbf75575b62820",
+      "bytes": 32,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/__init__.py",
+      "role": "recorded source"
+    },
+    "fer/data.py": {
+      "sha256": "d1c297d724309f085769e97d198e953861a7afe736379d5f74833d48f8895584",
+      "bytes": 4818,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/data.py",
+      "role": "recorded source"
+    },
+    "fer/emotieff.py": {
+      "sha256": "71b90b975f882778de3fe80b9978895d3e57311751586cf77be3d3feede38f31",
+      "bytes": 2758,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/emotieff.py",
+      "role": "recorded source"
+    },
+    "fer/finalize.py": {
+      "sha256": "327753d5c698a8bcccb9cc94c2dfe9e94292b867bcbf138194cc4f61267ff688",
+      "bytes": 11578,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/finalize.py",
+      "role": "recorded source"
+    },
+    "fer/finalize_sft.py": {
+      "sha256": "0a75ba1048c43d416be13a665e909aa285096a49f10553bf2e87dac3e820186e",
+      "bytes": 16193,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/finalize_sft.py",
+      "role": "recorded source"
+    },
+    "fer/io.py": {
+      "sha256": "4489d845834c90190cb528288237cb91fcc5c196b124cefa5e48a5a228c1c411",
+      "bytes": 2462,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/io.py",
+      "role": "recorded source"
+    },
+    "fer/losses.py": {
+      "sha256": "688188746b8d47e81b3437858fdce376519e8b3e402e6b7023ac66f7814d8ea2",
+      "bytes": 2724,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/losses.py",
+      "role": "recorded source"
+    },
+    "fer/models.py": {
+      "sha256": "601cc7115a99344401998ab24c5aa33f61120eca45fa0985c2f39fa9551dc135",
+      "bytes": 4667,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/models.py",
+      "role": "recorded source"
+    },
+    "fer/prepare.py": {
+      "sha256": "0d11f1bbed20730e118f7f4713a05a214ab52c19dc6c7bdd54ee699c9280e26c",
+      "bytes": 5527,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/prepare.py",
+      "role": "recorded source"
+    },
+    "fer/refinement.py": {
+      "sha256": "aa970a5410e5a052536caf9e15b890f70d454c7b54b05c3cf5cc585e4316ae42",
+      "bytes": 4086,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/refinement.py",
+      "role": "recorded source"
+    },
+    "fer/selection.py": {
+      "sha256": "4f93e4a4796116dfe7b3a6aa24ce65955f243adf89aee868d884c4827fcddf52",
+      "bytes": 3847,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/selection.py",
+      "role": "recorded source"
+    },
+    "fer/train.py": {
+      "sha256": "6fba0f56cfb0033af0b8685afd2e2bf641329dd4dade306bbcd0aaf362ab5488",
+      "bytes": 25129,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/train.py",
+      "role": "recorded source"
+    },
+    "fer/verify.py": {
+      "sha256": "f729cbfb772c176cd537b736b6ca6e211e8f8c3138af86b68d6c186831e4fc1e",
+      "bytes": 5234,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/verify.py",
+      "role": "recorded source"
+    },
+    "fer/verify_refine.py": {
+      "sha256": "c9f58cd8b03af8fbd07a99ef911c9fc51a73802b6283bf9ada7581c6d54f331e",
+      "bytes": 6726,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/verify_refine.py",
+      "role": "recorded source"
+    },
+    "fer/verify_sft.py": {
+      "sha256": "d9e0458a7e7716405fd1753ea945d3d607f3ed26063d3264f1e5b8be69414fdb",
+      "bytes": 4306,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/verify_sft.py",
+      "role": "recorded source"
+    },
+    "fer/verify_transfer.py": {
+      "sha256": "afdcb13920517eec7b50db3248069225fc1daec901b97b64e0a8e1895611613d",
+      "bytes": 4540,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!fer/verify_transfer.py",
+      "role": "recorded source"
+    },
+    "notebooke316458626_v2.ipynb": {
+      "sha256": "33decec0199aaef27ae0cd84b14bb81f6ee3ee0f26efe3919f1674daedeb9569",
+      "bytes": 237168,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/fer_best_7238.ipynb",
+      "role": "recorded source"
+    },
+    "provenance/original_training_modules/fer/data.py": {
+      "sha256": "d1c297d724309f085769e97d198e953861a7afe736379d5f74833d48f8895584",
+      "bytes": 4818,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/data.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/original_training_modules/fer/emotieff.py": {
+      "sha256": "71b90b975f882778de3fe80b9978895d3e57311751586cf77be3d3feede38f31",
+      "bytes": 2758,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/emotieff.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/original_training_modules/fer/finalize_sft.py": {
+      "sha256": "2e87fa29e5466ab266f27b6e2c202eff3652f73e33008785bd8a73b562aa5b83",
+      "bytes": 15768,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/finalize_sft.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/original_training_modules/fer/losses.py": {
+      "sha256": "688188746b8d47e81b3437858fdce376519e8b3e402e6b7023ac66f7814d8ea2",
+      "bytes": 2724,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/losses.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/original_training_modules/fer/models.py": {
+      "sha256": "d85264d18889f9208a6711f400cc2f92732bae57468d93e0c854feafd8a55870",
+      "bytes": 4602,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/models.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/original_training_modules/fer/selection.py": {
+      "sha256": "8484a93edd842d9ee223c49e6a3ea7957433dd0fa08164d854bcc41d6a553721",
+      "bytes": 2992,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/selection.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/original_training_modules/fer/train.py": {
+      "sha256": "ae5d2ca5d5ac8174c2432b758309eb9f0a8463945135c4b37f9fcf5fae04d613",
+      "bytes": 22923,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_source_snapshot/fer/train.py",
+      "role": "module matching original experiment fingerprint"
+    },
+    "provenance/source_comparison.json": {
+      "sha256": "a07800b7dfc62ed206bd2a0ba916491ab4ab7bebf8093d29af6e2d3144675092",
+      "bytes": 1919,
+      "origin": "Added for this GitHub source export",
+      "role": "provenance"
+    },
+    "reference/competition_submissions.json": {
+      "sha256": "06a41c6efe8c480f2c28d68eb5e0dca1a56826adee8eba27a02a58da58408219",
+      "bytes": 1276,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/competition_submissions.json",
+      "role": "final submission/training record"
+    },
+    "reference/data_summary.json": {
+      "sha256": "37373228edb61c965cbfa86bb1873ee794380880348e61b4a3ced7ceec877565",
+      "bytes": 756,
+      "origin": "2026task2/fer_data/fer_data/artifacts/data/summary.json",
+      "role": "final submission/training record"
+    },
+    "reference/inference_recipe.json": {
+      "sha256": "3abe8f8aebb8af298ad19169b040f1e7558bd0a8cb4766da252b740b842efe5e",
+      "bytes": 2583,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/inference_recipe.json",
+      "role": "final submission/training record"
+    },
+    "reference/submission.csv": {
+      "sha256": "3b0b3912924dab7d1866673e91daddf36e904ef167fb73deb1f3e80db2353788",
+      "bytes": 127182,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/submission.csv",
+      "role": "final submission/training record"
+    },
+    "reference/submission_audit.json": {
+      "sha256": "2237c27e886e4f7c7721c004345fc2417ff071da51109cdb2f6241cbc6468c6b",
+      "bytes": 2629,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/submission_audit.json",
+      "role": "final submission/training record"
+    },
+    "reference/transfer_final_results.json": {
+      "sha256": "bf39f57fd4e0e793b0f523f3547f21a3e742e0f8893e4c19f4fa2c52cc5d2dda",
+      "bytes": 34616,
+      "origin": "2026task2/fer_data/fer_data/artifacts/transfer_final_results.json",
+      "role": "final submission/training record"
+    },
+    "requirements-experiments.txt": {
+      "sha256": "03a7513e21a3850f5491fca63086a9014a15f2accba5bfecb07cbbf00b1839af",
+      "bytes": 182,
+      "origin": "2026task2/fer_data/fer_data/requirements-experiments.txt",
+      "role": "final submission/training record"
+    },
+    "scripts/download_weights.py": {
+      "sha256": "1da43f389b94b86176e0f55839ee84e062d2955dce2348813c08ae4d2bb0ee16",
+      "bytes": 3123,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/download_weights.py",
+      "role": "recorded source"
+    },
+    "scripts/finish_experiments.py": {
+      "sha256": "f20e64bfe94c1f260160fe5bc0010a798103107bcbbc4c0699bf0bb522a1e2f7",
+      "bytes": 1296,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/finish_experiments.py",
+      "role": "recorded source"
+    },
+    "scripts/plot_results.py": {
+      "sha256": "fa4ed31e57a62682179b5b2fbd2bf81d361a04a38d7ab65c54d06e276b411e9d",
+      "bytes": 2288,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/plot_results.py",
+      "role": "recorded source"
+    },
+    "scripts/prepare_emotieff.py": {
+      "sha256": "3115732ef48c2c2d682eb01a6a900ce7068ea2854dee08953c536f89b9341c14",
+      "bytes": 4710,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/prepare_emotieff.py",
+      "role": "recorded source"
+    },
+    "scripts/prepare_refine.py": {
+      "sha256": "ec5c94c60e2a3dab697fa7d3cb273a671256b7eb7a357779b3aa5d660874aee6",
+      "bytes": 6385,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/prepare_refine.py",
+      "role": "recorded source"
+    },
+    "scripts/run_experiments.py": {
+      "sha256": "a79ec720762007ff80c95b401d5d57b87f2f4210a89ac71fb871e2cb99815854",
+      "bytes": 2484,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/run_experiments.py",
+      "role": "recorded source"
+    },
+    "scripts/run_sft.py": {
+      "sha256": "17731538802e831d8bce09f25c7662777956ea8841a8e48b19ef78b60d46a0e8",
+      "bytes": 6443,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!scripts/run_sft.py",
+      "role": "recorded source"
+    },
+    "third_party/SOURCES.json": {
+      "sha256": "f42c4531d14d455d0435a3e8ac6780014fd4cd0bc4a9d0ed27074d90237e1e6c",
+      "bytes": 4020,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/SOURCES.json",
+      "role": "recorded source"
+    },
+    "third_party/__init__.py": {
+      "sha256": "b029e094582436d74053f551bce2ce6721c7b1b51031000a06fbf75575b62820",
+      "bytes": 32,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/__init__.py",
+      "role": "recorded source"
+    },
+    "third_party/emonext/__init__.py": {
+      "sha256": "b029e094582436d74053f551bce2ce6721c7b1b51031000a06fbf75575b62820",
+      "bytes": 32,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/emonext/__init__.py",
+      "role": "recorded source"
+    },
+    "third_party/emonext/models.py": {
+      "sha256": "d428be5b99afed38a8fa69d06ca1286016e89ecd7d34b000676ae33d64375970",
+      "bytes": 11044,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/emonext/models.py",
+      "role": "recorded source"
+    },
+    "third_party/nla/__init__.py": {
+      "sha256": "b029e094582436d74053f551bce2ce6721c7b1b51031000a06fbf75575b62820",
+      "bytes": 32,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/nla/__init__.py",
+      "role": "recorded source"
+    },
+    "third_party/nla/loss.py": {
+      "sha256": "2b4a2bd02cd0a4a4808154626a13e00aed6f2e9a56be56957d55595e4c65e0fd",
+      "bytes": 2530,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/nla/loss.py",
+      "role": "recorded source"
+    },
+    "third_party/nla/main_rafdb.py": {
+      "sha256": "9d6afb3238bc3a90960cb042c51aaef632a4d826eb8885023eff8d456531340f",
+      "bytes": 7144,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/nla/main_rafdb.py",
+      "role": "recorded source"
+    },
+    "third_party/nla/train.py": {
+      "sha256": "41e0d94b833bb65a0427490ae9e79629496e49730681c62a596676c52e7e9274",
+      "bytes": 2085,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/nla/train.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/LICENSE": {
+      "sha256": "2e4bdcdc2cd8e5ecad8991be984ec0487f9df6b2d6ddb028f7ac8130a109742a",
+      "bytes": 1060,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/LICENSE",
+      "role": "recorded source"
+    },
+    "third_party/qcs/__init__.py": {
+      "sha256": "b029e094582436d74053f551bce2ce6721c7b1b51031000a06fbf75575b62820",
+      "bytes": 32,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/__init__.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/models/QCS_7cls_raf_db.py": {
+      "sha256": "4baf44b3088c7fae59f83ced633f8221b18b90caf63b6b55f944beaf7f874826",
+      "bytes": 11549,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/models/QCS_7cls_raf_db.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/models/__init__.py": {
+      "sha256": "b029e094582436d74053f551bce2ce6721c7b1b51031000a06fbf75575b62820",
+      "bytes": 32,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/models/__init__.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/models/ir50.py": {
+      "sha256": "1aadde4cc87ab5d8d3e73b98e00211db2fa4a9b9b73233e5deaa2f6edc3d3c24",
+      "bytes": 8512,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/models/ir50.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/models/vit_model_7cls.py": {
+      "sha256": "eb93d9c8b5ef0c42c33ab635cae05c027f2b9a64a7cee07ff0340abc7640fb1d",
+      "bytes": 17617,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/models/vit_model_7cls.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/sam.py": {
+      "sha256": "00e7a54e67aa8b7f68737cebbedab2f83f921cc136f2eb084bab2f2f848c37d1",
+      "bytes": 2425,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/sam.py",
+      "role": "recorded source"
+    },
+    "third_party/qcs/utils.py": {
+      "sha256": "01d09ddb5c4b645acaedfd85b22913e691464ec1adafd2dd34aca0f7aad42cd9",
+      "bytes": 9444,
+      "origin": "2026task2/fer_data/fer_data/kaggle_export/remote_output_v2/fer_project_source.zip!third_party/qcs/utils.py",
+      "role": "recorded source"
+    }
+  }
+}

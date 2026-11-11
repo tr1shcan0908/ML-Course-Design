@@ -1,0 +1,69 @@
+{
+  "name": "reference_plus_transfer_emotieff_b2_ce_s42_0.25",
+  "components": [
+    {
+      "key": "convnext_tiny_s42",
+      "run": "convnext_tiny_s42",
+      "config_path": "experiments/configs/convnext_tiny_s42.json",
+      "model": "convnext",
+      "checkpoint": "runs\\convnext_tiny_s42\\best.pt",
+      "checkpoint_sha256": "371d605f04f7625a0c48ff69e43123801101a0aeb7c29b6b213ae505974b6c16",
+      "flip_tta": false,
+      "weight": 0.25,
+      "image_size": 224
+    },
+    {
+      "key": "qcs_s42",
+      "run": "qcs_s42",
+      "config_path": "experiments/configs/qcs_s42.json",
+      "model": "qcs",
+      "checkpoint": "runs\\qcs_s42\\best.pt",
+      "checkpoint_sha256": "93e132ff9e45e9b5d536ad2bb28517a8b0897177f92fbfd1d99401d6e1c363f8",
+      "flip_tta": false,
+      "weight": 0.25,
+      "image_size": 224
+    },
+    {
+      "key": "emonext_tiny_s42",
+      "run": "emonext_tiny_s42",
+      "config_path": "experiments/configs/emonext_tiny_s42.json",
+      "model": "emonext",
+      "checkpoint": "runs\\emonext_tiny_s42\\best.pt",
+      "checkpoint_sha256": "2eabaa11f340420d17758776a2b83a0eba76e736bf8910cda1a9052dfe544835",
+      "flip_tta": false,
+      "weight": 0.25,
+      "image_size": 224
+    },
+    {
+      "key": "transfer_emotieff_b2_ce_s42",
+      "run": "transfer_emotieff_b2_ce_s42",
+      "config_path": "experiments/configs/transfer_emotieff_b2_ce_s42.json",
+      "model": "emotieff",
+      "checkpoint": "runs\\transfer_emotieff_b2_ce_s42\\best.pt",
+      "checkpoint_sha256": "adf56fcfb5854a10c38b26a99aa3ceb3d69ee74528e1a7b338a243439665fb49",
+      "flip_tta": false,
+      "weight": 0.25,
+      "image_size": 260
+    }
+  ],
+  "classes": [
+    "Angry",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise"
+  ],
+  "eval_precision": "float32",
+  "manifest_sha256": "a5ea2d268655879dc000ee519725bc168db4f5f4c5b97316dfa825b86d6307ca",
+  "selection_metric": "validation_accuracy",
+  "source_sha256": {
+    "fer/train.py": "ae5d2ca5d5ac8174c2432b758309eb9f0a8463945135c4b37f9fcf5fae04d613",
+    "fer/models.py": "d85264d18889f9208a6711f400cc2f92732bae57468d93e0c854feafd8a55870",
+    "fer/data.py": "d1c297d724309f085769e97d198e953861a7afe736379d5f74833d48f8895584",
+    "fer/emotieff.py": "71b90b975f882778de3fe80b9978895d3e57311751586cf77be3d3feede38f31",
+    "fer/losses.py": "688188746b8d47e81b3437858fdce376519e8b3e402e6b7023ac66f7814d8ea2",
+    "fer/finalize_sft.py": "2e87fa29e5466ab266f27b6e2c202eff3652f73e33008785bd8a73b562aa5b83",
+    "fer/selection.py": "8484a93edd842d9ee223c49e6a3ea7957433dd0fa08164d854bcc41d6a553721"
+  }
+}

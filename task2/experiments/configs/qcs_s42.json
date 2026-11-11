@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "data": "artifacts/data",
+  "epochs": 12,
+  "batch_size": 16,
+  "accumulation_steps": 1,
+  "effective_batch_size": 16,
+  "eval_batch_size": 64,
+  "lr": 0.00003,
+  "weight_decay": 0,
+  "label_smoothing": 0.2,
+  "warmup_epochs": 2,
+  "ema": false,
+  "selection_metric": "validation_macro_f1",
+  "pretrained": "artifacts/weights/ir50_msceleb.pth",
+  "name": "qcs_s42",
+  "model": "qcs",
+  "loss": "qcs",
+  "output": "runs/qcs_s42"
+}

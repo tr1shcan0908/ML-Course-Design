@@ -1,0 +1,41 @@
+[
+  {
+    "ref": 57317740,
+    "totalBytes": 127182,
+    "date": "2026-10-17T16:14:59.260Z",
+    "description": "FER historical public-best 0.742 ensemble; development validation 72.38%",
+    "fileName": "submission.csv",
+    "publicScore": "0.742",
+    "status": "COMPLETE",
+    "submittedBy": "changyangli0908",
+    "submittedByRef": "changyangli0908",
+    "teamName": "Changyang Li0908",
+    "url": "/code/changyangli0908/notebooke316458626?scriptVersionId=359418547"
+  },
+  {
+    "ref": 57185977,
+    "totalBytes": 127182,
+    "date": "2026-10-14T14:43:45.637Z",
+    "description": "",
+    "fileName": "submission_best_7253.csv",
+    "publicScore": "0.740",
+    "status": "COMPLETE",
+    "submittedBy": "changyangli0908",
+    "submittedByRef": "changyangli0908",
+    "teamName": "Changyang Li0908",
+    "url": "/submissions/57185977/57185977.raw"
+  },
+  {
+    "ref": 57181182,
+    "totalBytes": 127182,
+    "date": "2026-10-14T11:52:43.730Z",
+    "description": "",
+    "fileName": "submission_best_7238.csv",
+    "publicScore": "0.742",
+    "status": "COMPLETE",
+    "submittedBy": "changyangli0908",
+    "submittedByRef": "changyangli0908",
+    "teamName": "Changyang Li0908",
+    "url": "/submissions/57181182/57181182.raw"
+  }
+]

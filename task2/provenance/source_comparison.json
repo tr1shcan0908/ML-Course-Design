@@ -1,0 +1,44 @@
+{
+  "fer/train.py": {
+    "experiment_sha256": "ae5d2ca5d5ac8174c2432b758309eb9f0a8463945135c4b37f9fcf5fae04d613",
+    "final_notebook_sha256": "6fba0f56cfb0033af0b8685afd2e2bf641329dd4dade306bbcd0aaf362ab5488",
+    "equal": false,
+    "original_module_included": true
+  },
+  "fer/models.py": {
+    "experiment_sha256": "d85264d18889f9208a6711f400cc2f92732bae57468d93e0c854feafd8a55870",
+    "final_notebook_sha256": "601cc7115a99344401998ab24c5aa33f61120eca45fa0985c2f39fa9551dc135",
+    "equal": false,
+    "original_module_included": true
+  },
+  "fer/data.py": {
+    "experiment_sha256": "d1c297d724309f085769e97d198e953861a7afe736379d5f74833d48f8895584",
+    "final_notebook_sha256": "d1c297d724309f085769e97d198e953861a7afe736379d5f74833d48f8895584",
+    "equal": true,
+    "original_module_included": true
+  },
+  "fer/emotieff.py": {
+    "experiment_sha256": "71b90b975f882778de3fe80b9978895d3e57311751586cf77be3d3feede38f31",
+    "final_notebook_sha256": "71b90b975f882778de3fe80b9978895d3e57311751586cf77be3d3feede38f31",
+    "equal": true,
+    "original_module_included": true
+  },
+  "fer/losses.py": {
+    "experiment_sha256": "688188746b8d47e81b3437858fdce376519e8b3e402e6b7023ac66f7814d8ea2",
+    "final_notebook_sha256": "688188746b8d47e81b3437858fdce376519e8b3e402e6b7023ac66f7814d8ea2",
+    "equal": true,
+    "original_module_included": true
+  },
+  "fer/finalize_sft.py": {
+    "experiment_sha256": "2e87fa29e5466ab266f27b6e2c202eff3652f73e33008785bd8a73b562aa5b83",
+    "final_notebook_sha256": "0a75ba1048c43d416be13a665e909aa285096a49f10553bf2e87dac3e820186e",
+    "equal": false,
+    "original_module_included": true
+  },
+  "fer/selection.py": {
+    "experiment_sha256": "8484a93edd842d9ee223c49e6a3ea7957433dd0fa08164d854bcc41d6a553721",
+    "final_notebook_sha256": "4f93e4a4796116dfe7b3a6aa24ce65955f243adf89aee868d884c4827fcddf52",
+    "equal": false,
+    "original_module_included": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "original_train": 28275,
+  "original_test": 7065,
+  "clean_unique": 27042,
+  "train": 21633,
+  "val": 5409,
+  "train_class_counts": {
+    "Angry": 3041,
+    "Fear": 3107,
+    "Happy": 5641,
+    "Neutral": 3886,
+    "Sad": 3804,
+    "Surprise": 2154
+  },
+  "val_class_counts": {
+    "Angry": 761,
+    "Fear": 777,
+    "Happy": 1410,
+    "Neutral": 972,
+    "Sad": 951,
+    "Surprise": 538
+  },
+  "exclusions": {
+    "same_label_duplicate": 1123,
+    "conflicting_labels_for_identical_pixels": 110
+  },
+  "conflicting_pixel_groups": 39,
+  "train_val_pixel_overlap": 0,
+  "test_images_matching_original_train": 520,
+  "manifest_sha256": "a5ea2d268655879dc000ee519725bc168db4f5f4c5b97316dfa825b86d6307ca",
+  "seconds": 10.7
+}
