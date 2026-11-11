@@ -1,0 +1,147 @@
+{
+  "selected": "heatmap+fov512",
+  "weights": {
+    "heatmap_512": 0.5,
+    "fov_heatmap512": 0.5
+  },
+  "metrics": {
+    "method": "heatmap+fov512",
+    "rmse": 12.489340761455175,
+    "delta_rmse": -1.3782763607602941,
+    "aed": 11.123878729716543,
+    "median_radial": 6.386616887446999,
+    "p95_radial": 44.64025047645758,
+    "max_radial": 77.83982582541054,
+    "bootstrap_delta_low": -3.372949020587487,
+    "bootstrap_delta_high": 0.6600198542767702,
+    "images_improved": 41,
+    "fold_0_rmse": 7.217336046582561,
+    "fold_1_rmse": 11.025176750575206,
+    "fold_2_rmse": 20.30718414239855,
+    "fold_3_rmse": 7.4826842305329215,
+    "fold_4_rmse": 11.789453028964092,
+    "folds_improved": 1,
+    "leave_one_group_delta_min": -1.67095853969815,
+    "leave_one_group_delta_max": -0.438220834464472
+  },
+  "candidate_definitions": {
+    "round1_best": {
+      "heatmap_512": 0.5,
+      "fine_512": 0.5
+    },
+    "context768": {
+      "fine_context768": 1.0
+    },
+    "heatmap+context768": {
+      "heatmap_512": 0.5,
+      "fine_context768": 0.5
+    },
+    "heatmap+fine+context768": {
+      "heatmap_512": 0.3333333333333333,
+      "fine_512": 0.3333333333333333,
+      "fine_context768": 0.3333333333333333
+    },
+    "axis_ms": {
+      "marginal_ms512": 1.0
+    },
+    "heatmap+axis_ms": {
+      "heatmap_512": 0.5,
+      "marginal_ms512": 0.5
+    },
+    "heatmap+fine+axis_ms": {
+      "heatmap_512": 0.3333333333333333,
+      "fine_512": 0.3333333333333333,
+      "marginal_ms512": 0.3333333333333333
+    },
+    "shift5": {
+      "fine_shift5": 1.0
+    },
+    "heatmap+shift5": {
+      "heatmap_512": 0.5,
+      "fine_shift5": 0.5
+    },
+    "heatmap+fine+shift5": {
+      "heatmap_512": 0.3333333333333333,
+      "fine_512": 0.3333333333333333,
+      "fine_shift5": 0.3333333333333333
+    },
+    "fov512": {
+      "fov_heatmap512": 1.0
+    },
+    "heatmap+fov512": {
+      "heatmap_512": 0.5,
+      "fov_heatmap512": 0.5
+    },
+    "heatmap+fine+fov512": {
+      "heatmap_512": 0.3333333333333333,
+      "fine_512": 0.3333333333333333,
+      "fov_heatmap512": 0.3333333333333333
+    }
+  },
+  "baseline_rmse": 13.867617122215469,
+  "dataset_hash": "5be9cec862a5c0cd3fa50a7ac8b2c3bda95195cd1380c0de3707b6f2e70b2bd6",
+  "run_files": {
+    "heatmap_512": {
+      "config.json": "d7a848dd2be07068b7566a6536350409b0e519964b0d5c10732f4decfda40356",
+      "oof_predictions.csv": "7cd5f48fc8872b6c47b8e68e3ca266e68ff16acaa4a50647cbc99cd8b943e696",
+      "test_predictions.csv": "4bee3a18d7bdc0f26daedb5bd52d67b2da380e9e5d54f702edbb5168c4ae877f"
+    },
+    "fine_512": {
+      "config.json": "fcb0cf8aeddfe832c3ae4de6c1774b0153db489062977d63d9855bb6877c455a",
+      "oof_predictions.csv": "5cda8eb8a50054ffc21a673c9a60e11e3b971663ffc46d8df64701a20d86f0c6",
+      "test_predictions.csv": "2bb0b5be8c05afac413b98cdc192448de6f8691975df5aec2a4fb1aa0dda0c1c"
+    },
+    "fine_context768": {
+      "config.json": "a8ac975417121c81e4ab7dea267752a653c31cf699761fc622283659664a5faf",
+      "oof_predictions.csv": "2a665f8dcba4fad033634d5b5cd404bea8937657b1e6be2082ee1fcfbf7ff85e",
+      "test_predictions.csv": "8c260c52d387cf383bc882c6ffa4e4f39f005ca773b17fbb27d17fcaff03f577"
+    },
+    "marginal_ms512": {
+      "config.json": "719742942d6d42d0204380e19c43f74f6223115f162b046c3529cbad61edf50e",
+      "oof_predictions.csv": "b263efc15ada1e22d712920437863101c541464c73ad53014f66a3ca68b81de8",
+      "test_predictions.csv": "943e0b2c8cd4f6106485ee76e6f0694e2ca31b03cdc76ed390af2571d5bb3043"
+    },
+    "fine_shift5": {
+      "config.json": "7dd2ac485b842872b52735acf7b482fabe283a16272b0a1038c6643ea2613aff",
+      "oof_predictions.csv": "25fa2dd448b3bd6557594a5d583363a1648bbe653399c67e70c780872a71c71c",
+      "test_predictions.csv": "d4143ec2864e6371d6f68a22ee034436b7d2c7e0cc425ad94c3f987e290dd43f"
+    },
+    "fov_heatmap512": {
+      "config.json": "c294eed11b704092103a759d5a4efed37aaf2127614d99f4713504141f645331",
+      "oof_predictions.csv": "75b82437149a24c68a43a8d4e94fe6d018b48505d1790bd6d2568c67560a022f",
+      "test_predictions.csv": "d16b8b5ff51a1e8e83b18283bf378395a4e5614db36d6a825bd84f56acddda76"
+    }
+  },
+  "adaptive_fov_addendum": true,
+  "bootstrap": {
+    "repeats": 5000,
+    "seed": 20261022,
+    "groups": 79,
+    "unit": "exact image content",
+    "note": "Conditional on fixed predictions; does not correct validation/model selection bias."
+  },
+  "checks": {
+    "train_rows": 80,
+    "test_rows": 20,
+    "submission_rows": 40,
+    "original_image_hashes_unchanged": true,
+    "no_exact_duplicate_leakage": true,
+    "template_order_matches": true
+  },
+  "limitations": [
+    "All training labels visible; invisible classifier remains unvalidated.",
+    "Same validation labels select epochs and candidates; these are internal model-selection estimates.",
+    "No patient/eye IDs are available; exact-duplicate grouping cannot exclude all related-eye leakage."
+  ],
+  "source_sha256": {
+    "fovea/__init__.py": "eaf1013f514adb512b9de7f2f947a64cc57207958697a2567e678889bab86a68",
+    "fovea/data.py": "3a59e7e7c49a72a30a0e22b15714031488e914879f9e9d33cd8f50004b9d0f96",
+    "fovea/experiment.py": "da876398a856d2cbdf064b339d91ead77c024910fb19d72ee2753fc0f35d7291",
+    "fovea/fov.py": "8882effde27f4b49dcf5728e6b2383d54e52c0f4eaf4e72fb85ce40cbf9b718e",
+    "fovea/model.py": "d69fde9fb742148989633ccf06dcce0642e05905483f72d969663c9e677352f2",
+    "fovea/multicrop.py": "d4ca689160129675fcf608cc405a9f052b32e7175a020650957333073ff5f52a",
+    "fovea/pose.py": "17a67e2e66ba9afb4f6620a152a774536dca35738b9d904225b16d53e2f5d34c",
+    "analysis/compare_round2.py": "c10effdc108412df0ef41aee5eec8008e8cc158dfdab326d48158597f8423a8d"
+  },
+  "submission_sha256": "e42a58fb7ac028b5859c9a5650df549a29fa2c8a9315da03f4b4aa7cc47a3a43"
+}

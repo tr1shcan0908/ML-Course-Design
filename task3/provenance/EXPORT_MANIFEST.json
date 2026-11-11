@@ -1,0 +1,231 @@
+{
+  "task": "task3",
+  "export_date": "2026-11-11",
+  "verification": {
+    "historical_source_hashes": 8,
+    "source_hashes_match": true,
+    "selected": "heatmap+fov512",
+    "weights": {
+      "heatmap_512": 0.5,
+      "fov_heatmap512": 0.5
+    }
+  },
+  "files": {
+    "README.md": {
+      "sha256": "b001c458f6e18b152b2b1543f7af782b100fd6b9f63b3cc0f35b1e20ea2654c1",
+      "bytes": 2062,
+      "origin": "Added for this GitHub source export",
+      "role": "export documentation/utility"
+    },
+    "analysis/audit_round2.py": {
+      "sha256": "706027adc9b06d52268a424ef3a3ca49bb8ed907c53e9a61035cf9c451abc57c",
+      "bytes": 6827,
+      "origin": "2026task3/analysis/audit_round2.py",
+      "role": "recorded source"
+    },
+    "analysis/compare_round2.py": {
+      "sha256": "c10effdc108412df0ef41aee5eec8008e8cc158dfdab326d48158597f8423a8d",
+      "bytes": 19425,
+      "origin": "2026task3/analysis/compare_round2.py",
+      "role": "recorded source"
+    },
+    "analysis/retinal_fov_diagnostics.py": {
+      "sha256": "51b2c9ac96b04d3b3e448445f7bd7a44577dbd2fbf25e6b9915ac79a2f21e048",
+      "bytes": 4581,
+      "origin": "2026task3/analysis/retinal_fov_diagnostics.py",
+      "role": "recorded source"
+    },
+    "analysis/round2_addendum_fov.md": {
+      "sha256": "731d0a3fc37f8a93c2e4f1cf95d0319e21805925471bc9275507a294e69653ce",
+      "bytes": 2319,
+      "origin": "2026task3/analysis/round2_addendum_fov.md",
+      "role": "recorded source"
+    },
+    "analysis/round2_plan.md": {
+      "sha256": "f110fef5057d7156b3e5b6e7fb153a7cf1c57f4c328547cf0f216c7d3167bd66",
+      "bytes": 5054,
+      "origin": "2026task3/analysis/round2_plan.md",
+      "role": "recorded source"
+    },
+    "analysis/run_fov_addendum.py": {
+      "sha256": "6dc224edf20f38acc667995b27714d8ccf51ff2573e12dbdc1fdc0597c0f5a8b",
+      "bytes": 2343,
+      "origin": "2026task3/analysis/run_fov_addendum.py",
+      "role": "recorded source"
+    },
+    "analysis/run_round2.py": {
+      "sha256": "ace52137d2b1e35de355c1ba63902ed6b106af44d2c1bbbae143c188413eecdf",
+      "bytes": 2345,
+      "origin": "2026task3/analysis/run_round2.py",
+      "role": "recorded source"
+    },
+    "fovea/__init__.py": {
+      "sha256": "eaf1013f514adb512b9de7f2f947a64cc57207958697a2567e678889bab86a68",
+      "bytes": 50,
+      "origin": "2026task3/fovea/__init__.py",
+      "role": "recorded source"
+    },
+    "fovea/context.py": {
+      "sha256": "5f717a4058d4afceb5d1212f54ba10506416c124359a0492342b3eefa86be1ed",
+      "bytes": 3602,
+      "origin": "2026task3/fovea/context.py",
+      "role": "recorded source"
+    },
+    "fovea/data.py": {
+      "sha256": "3a59e7e7c49a72a30a0e22b15714031488e914879f9e9d33cd8f50004b9d0f96",
+      "bytes": 10671,
+      "origin": "2026task3/fovea/data.py",
+      "role": "recorded source"
+    },
+    "fovea/experiment.py": {
+      "sha256": "da876398a856d2cbdf064b339d91ead77c024910fb19d72ee2753fc0f35d7291",
+      "bytes": 20033,
+      "origin": "2026task3/fovea/experiment.py",
+      "role": "recorded source"
+    },
+    "fovea/fov.py": {
+      "sha256": "8882effde27f4b49dcf5728e6b2383d54e52c0f4eaf4e72fb85ce40cbf9b718e",
+      "bytes": 3205,
+      "origin": "2026task3/fovea/fov.py",
+      "role": "recorded source"
+    },
+    "fovea/model.py": {
+      "sha256": "d69fde9fb742148989633ccf06dcce0642e05905483f72d969663c9e677352f2",
+      "bytes": 7052,
+      "origin": "2026task3/fovea/model.py",
+      "role": "recorded source"
+    },
+    "fovea/multicrop.py": {
+      "sha256": "d4ca689160129675fcf608cc405a9f052b32e7175a020650957333073ff5f52a",
+      "bytes": 6695,
+      "origin": "2026task3/fovea/multicrop.py",
+      "role": "recorded source"
+    },
+    "fovea/pose.py": {
+      "sha256": "17a67e2e66ba9afb4f6620a152a774536dca35738b9d904225b16d53e2f5d34c",
+      "bytes": 11980,
+      "origin": "2026task3/fovea/pose.py",
+      "role": "recorded source"
+    },
+    "outputs/round2_fov/artifact_integrity.json": {
+      "sha256": "0619cd08baacc2b27f27f2ace1a6e696c6f2d0e571bea12c2f8a27a151216881",
+      "bytes": 20172,
+      "origin": "2026task3/outputs/round2_fov/artifact_integrity.json",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/comparison.csv": {
+      "sha256": "dfbc8f540600ca03367b6af51499143ce7e96e7b8c87b966682b1cdc2f0a7f71",
+      "bytes": 4113,
+      "origin": "2026task3/outputs/round2_fov/comparison.csv",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/experiment_results.md": {
+      "sha256": "1e7fa3a5188cc6fdc5ef9ed985d09df3f36b1afa45a6801d40771f6cf43d1e51",
+      "bytes": 5367,
+      "origin": "2026task3/outputs/round2_fov/experiment_results.md",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/oof_predictions.csv": {
+      "sha256": "0eedc18ddf7bd7b7d46e9e6b21e057ac893f27cbe5643cb9e97c2effdf884161",
+      "bytes": 9830,
+      "origin": "2026task3/outputs/round2_fov/oof_predictions.csv",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/resolution_diagnostics.csv": {
+      "sha256": "d3734d51cda1d75a3c98c5a164f71f0208ce02bfc056a697f2a05e987edc5dec",
+      "bytes": 391,
+      "origin": "2026task3/outputs/round2_fov/resolution_diagnostics.csv",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/selection.json": {
+      "sha256": "7554cb190e4fcf4c3317ec286cdb727e2c19bf4222460706cdd1eef17c605e35",
+      "bytes": 5902,
+      "origin": "2026task3/outputs/round2_fov/selection.json",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/submission.csv": {
+      "sha256": "e42a58fb7ac028b5859c9a5650df549a29fa2c8a9315da03f4b4aa7cc47a3a43",
+      "bytes": 976,
+      "origin": "2026task3/outputs/round2_fov/submission.csv",
+      "role": "final heatmap+fov512 result"
+    },
+    "outputs/round2_fov/test_predictions.csv": {
+      "sha256": "c75fe5af2ba546c6e61930956e166b74bac9e07250d539f1e6a96d1c140eb31e",
+      "bytes": 1040,
+      "origin": "2026task3/outputs/round2_fov/test_predictions.csv",
+      "role": "final heatmap+fov512 result"
+    },
+    "replay_submission.py": {
+      "sha256": "4ce0e7b8b868a7c90e8233012534411a4c383da740705faf92cf2e31ea7463be",
+      "bytes": 2098,
+      "origin": "Added for this GitHub source export",
+      "role": "export documentation/utility"
+    },
+    "requirements-pose.txt": {
+      "sha256": "d2ffe49d621168783a33fc31289370ade855b420ae73a64896a9e500b11e09bc",
+      "bytes": 90,
+      "origin": "2026task3/requirements-pose.txt",
+      "role": "recorded source"
+    },
+    "requirements-training.txt": {
+      "sha256": "0f6e2c76dc23634adeddd99c6303bda8dbf7fdb3e674ed05d3653232a3962e65",
+      "bytes": 218,
+      "origin": "2026task3/requirements-training.txt",
+      "role": "recorded source"
+    },
+    "runs/fov_heatmap512/config.json": {
+      "sha256": "c294eed11b704092103a759d5a4efed37aaf2127614d99f4713504141f645331",
+      "bytes": 1480,
+      "origin": "2026task3/runs/fov_heatmap512/config.json",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/fov_heatmap512/metrics.json": {
+      "sha256": "7cb25d7636270e6459b36be2979ca84993da55a5b54efead39270eb3871fd4c7",
+      "bytes": 1576,
+      "origin": "2026task3/runs/fov_heatmap512/metrics.json",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/fov_heatmap512/oof_predictions.csv": {
+      "sha256": "75b82437149a24c68a43a8d4e94fe6d018b48505d1790bd6d2568c67560a022f",
+      "bytes": 15721,
+      "origin": "2026task3/runs/fov_heatmap512/oof_predictions.csv",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/fov_heatmap512/test_predictions.csv": {
+      "sha256": "d16b8b5ff51a1e8e83b18283bf378395a4e5614db36d6a825bd84f56acddda76",
+      "bytes": 1028,
+      "origin": "2026task3/runs/fov_heatmap512/test_predictions.csv",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/heatmap_512/config.json": {
+      "sha256": "d7a848dd2be07068b7566a6536350409b0e519964b0d5c10732f4decfda40356",
+      "bytes": 816,
+      "origin": "2026task3/runs/heatmap_512/config.json",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/heatmap_512/metrics.json": {
+      "sha256": "6bfd36331c5c94f6180d69e92e9b88aaddf89716d2ebc6b89c3cf631a827f189",
+      "bytes": 1576,
+      "origin": "2026task3/runs/heatmap_512/metrics.json",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/heatmap_512/oof_predictions.csv": {
+      "sha256": "7cd5f48fc8872b6c47b8e68e3ca266e68ff16acaa4a50647cbc99cd8b943e696",
+      "bytes": 15631,
+      "origin": "2026task3/runs/heatmap_512/oof_predictions.csv",
+      "role": "selected stream configuration/predictions"
+    },
+    "runs/heatmap_512/test_predictions.csv": {
+      "sha256": "4bee3a18d7bdc0f26daedb5bd52d67b2da380e9e5d54f702edbb5168c4ae877f",
+      "bytes": 1011,
+      "origin": "2026task3/runs/heatmap_512/test_predictions.csv",
+      "role": "selected stream configuration/predictions"
+    },
+    "sample_submission.csv": {
+      "sha256": "28c8af24effbb1fefe9cd7162b4093b2966b24c9d5e5e2140ecb368822409d9d",
+      "bytes": 537,
+      "origin": "2026task3/sample_submission.csv",
+      "role": "recorded source"
+    }
+  }
+}

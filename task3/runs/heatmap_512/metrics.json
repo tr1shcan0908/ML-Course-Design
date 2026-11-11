@@ -1,0 +1,54 @@
+{
+  "completed_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "complete_five_fold": true,
+  "scores": {
+    "pred": {
+      "rmse": 14.324539099401942,
+      "rmse_x": 17.00312997098091,
+      "rmse_y": 11.012647820143924,
+      "aed": 12.974879420810698,
+      "median_distance": 7.97835094766598,
+      "p95_distance": 41.20234255810444,
+      "max_distance": 109.7737580216577,
+      "count": 80
+    },
+    "local": {
+      "rmse": 15.68236651949592,
+      "rmse_x": 18.659000104141903,
+      "rmse_y": 11.988117217363428,
+      "aed": 14.012615765405423,
+      "median_distance": 8.27092899711101,
+      "p95_distance": 48.93695419656169,
+      "max_distance": 112.20748921685181,
+      "count": 80
+    },
+    "tta": {
+      "rmse": 14.47408006231122,
+      "rmse_x": 17.502426968337232,
+      "rmse_y": 10.614284597579427,
+      "aed": 13.199696786220589,
+      "median_distance": 7.116603728324655,
+      "p95_distance": 38.534796107399,
+      "max_distance": 102.92053064466154,
+      "count": 80
+    },
+    "local_tta": {
+      "rmse": 16.515911852346292,
+      "rmse_x": 20.25353970907556,
+      "rmse_y": 11.633779174535029,
+      "aed": 14.339446065926632,
+      "median_distance": 7.099860916109099,
+      "p95_distance": 53.70235381692355,
+      "max_distance": 106.26748646579682,
+      "count": 80
+    }
+  },
+  "selected_variant": "pred",
+  "selection_note": "Epochs and decoding/TTA are selected on validation data; these scores are internal model-selection estimates, not an independent test result."
+}
